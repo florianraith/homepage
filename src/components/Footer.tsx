@@ -8,7 +8,7 @@ export function Footer() {
           <ContainerInner>
             <div className="flex flex-col items-center gap-2">
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; {new Date().getFullYear()} Spencer Sharp. All rights
+                &copy; {new Date().getFullYear()} Florian Raith. All rights
                 reserved.
               </p>
               <p className="text-xs text-zinc-400 dark:text-zinc-500">
