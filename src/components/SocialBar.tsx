@@ -31,7 +31,7 @@ function SocialButton({
 
 export function SocialBar() {
   return (
-    <ContainerOuter className="bg-teal-600 md:hidden dark:bg-teal-700">
+    <ContainerOuter className="bg-teal-600 lg:hidden dark:bg-teal-700">
       <ContainerInner className="flex h-12 items-center justify-end gap-4">
         <SocialButton
           href="https://github.com/florianraith/"
