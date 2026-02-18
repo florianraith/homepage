@@ -12,7 +12,7 @@ function SocialLink({
 }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 fill-zinc-500 transition group-hover:fill-zinc-600 dark:fill-zinc-400 dark:group-hover:fill-zinc-300" />
+      <Icon className="h-6 w-6 text-zinc-500 transition-colors group-hover:text-zinc-700 dark:text-zinc-400 dark:group-hover:text-zinc-200" />
     </Link>
   )
 }
@@ -31,7 +31,10 @@ export function Intro() {
         {/*Devoted to exploring the depths of computer science with a special focus*/}
         {/*on the field of machine learning. Passionate about developing and*/}
         {/*building meaningful projects.*/}
-        Hey, I'm Florian — a computer science student from Germany who loves diving deep into the world of computer science. I enjoy exploring complex ideas, turning them into practical knowledge, and building meaningful projects.
+        Hey, I'm Florian — a computer science student from Germany who loves
+        diving deep into the world of computer science. I enjoy exploring
+        complex ideas, turning them into practical knowledge, and building
+        meaningful projects.
       </p>
       <div className="mt-6 flex gap-6">
         <SocialLink

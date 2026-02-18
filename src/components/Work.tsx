@@ -4,6 +4,7 @@ import { faBriefcase } from '@fortawesome/free-solid-svg-icons'
 interface WorkExperience {
   title: string
   company: string
+  companyUrl?: string
   summary: string
   details?: string[]
 }
@@ -18,6 +19,7 @@ const workExperiences: WorkExperience[] = [
   {
     title: 'Software Developer',
     company: 'Zewotherm',
+    companyUrl: 'https://zewotherm.com/',
     summary:
       'Contributing to internal tooling and business-critical systems for the organization.',
     details: [
@@ -29,6 +31,7 @@ const workExperiences: WorkExperience[] = [
   {
     title: 'Game Developer',
     company: 'Cytooxien',
+    companyUrl: 'https://cytooxien.net/',
     summary:
       'Worked on online game platform systems and gameplay-related features.',
     details: [
@@ -39,6 +42,7 @@ const workExperiences: WorkExperience[] = [
   {
     title: 'Programming Tutor',
     company: 'Rhein-Gymnasium Sinzig',
+    companyUrl: 'https://www.rhein-gymnasium-sinzig.de/',
     summary:
       'Organized and led a weekly JavaScript course centered on creative programming with p5.js for around 20 students.',
   },
@@ -70,7 +74,18 @@ export function Work() {
               {experience.title}
             </p>
             <h3 className="mt-1 text-base font-semibold text-zinc-900 dark:text-zinc-100">
-              {experience.company}
+              {experience.companyUrl ? (
+                <a
+                  href={experience.companyUrl}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="underline decoration-zinc-300 underline-offset-2 transition hover:text-zinc-700 dark:decoration-zinc-600 dark:hover:text-zinc-300"
+                >
+                  {experience.company}
+                </a>
+              ) : (
+                experience.company
+              )}
             </h3>
             <ul className="mt-2 list-disc space-y-2 pl-5 text-sm text-zinc-700 dark:text-zinc-300">
               <li>{experience.summary}</li>
