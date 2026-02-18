@@ -21,7 +21,6 @@ export function Contact() {
         >
           florianraith00@gmail.com
         </a>
-        .
       </p>
     </section>
   )

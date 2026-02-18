@@ -12,7 +12,7 @@ function SocialLink({
 }) {
   return (
     <Link className="group -m-1 p-1" {...props}>
-      <Icon className="h-6 w-6 text-zinc-500 transition-colors group-hover:text-zinc-700 dark:text-zinc-400 dark:group-hover:text-zinc-200" />
+      <Icon className="h-6 w-6 text-zinc-500 transition-colors group-hover:text-teal-700 dark:text-zinc-400 dark:group-hover:text-teal-200" />
     </Link>
   )
 }

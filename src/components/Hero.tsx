@@ -23,7 +23,7 @@ export function Hero() {
           </div>
           <div className="px-4 py-24 sm:py-32">
             <div className="mx-auto max-w-xl lg:max-w-none">
-              <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl">
+              <h1 className="text-5xl font-bold tracking-tight text-white sm:text-6xl text-teal-600">
                 Florian Raith
               </h1>
               <div className="mt-4 space-y-1 text-xl leading-tight text-zinc-100">
