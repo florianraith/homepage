@@ -1,0 +1,24 @@
+{
+  "version": 3,
+  "skills": {
+    "frontend-design": {
+      "source": "anthropics/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/anthropics/skills.git",
+      "skillPath": "skills/frontend-design/SKILL.md",
+      "skillFolderHash": "928950704df8a8b885c03de5da626331e6f29cf8",
+      "installedAt": "2026-02-18T16:22:55.783Z",
+      "updatedAt": "2026-02-18T16:22:55.783Z"
+    },
+    "tailwindcss-development": {
+      "source": "laravel/boost",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/laravel/boost.git",
+      "skillPath": ".ai/tailwindcss/3/skill/tailwindcss-development/SKILL.md",
+      "skillFolderHash": "e39c2ef8ff17d2d482286114eb34cf11b674d7c1",
+      "installedAt": "2026-02-18T16:23:20.669Z",
+      "updatedAt": "2026-02-18T16:23:20.669Z"
+    }
+  },
+  "dismissed": {}
+}
